@@ -30,8 +30,8 @@ var Generator = module.exports = function Generator() {
     this.foundWhenForRoute = true;
   }
 
-  this.hookFor('angular:controller');
-  this.hookFor('angular:view');
+  this.hookFor('yo-angular:controller');
+  this.hookFor('yo-angular:view');
 };
 
 util.inherits(Generator, ScriptBase);
